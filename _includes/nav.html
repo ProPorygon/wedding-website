@@ -6,7 +6,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="/">
-                  C & N
+                  K & J
                 </a>
             </div>
 
@@ -21,35 +21,31 @@
                         <a href="/"> Our Story</a>
                     </li>
                     <li class="{% if page.url == '/celebrations/' %}active{% endif %}">
-                        <a href="/celebrations">Celebrations</a>
+                        <a href="/schedules">Schedules</a>
                     </li>
-                    <li class="{% if page.url == '/people/' %}active{% endif %}">
+                    <!-- <li class="{% if page.url == '/people/' %}active{% endif %}">
                         <a href="/people">People</a>
-                    </li>
+                    </li> -->
                     <li class="{% if page.url == '/details/' %}active{% endif %}">
                         <a href="/details">Details</a>
                     </li>
-                    {% if site.faq[site.context] %}
-                      <li class="{% if page.url == '/faq/' %}active{% endif %}">
-                        <a href="/faq">FAQ</a>
-                      </li>
-                    {% endif %}
-                    {% if site.guide[site.context] %}
+                    <li class="{% if page.url == '/faq/' %}active{% endif %}">
+                      <a href="/faq">FAQ</a>
+                    </li>
+                    <!-- {% if site.guide[site.context] %}
                       <li class="{% if page.url == '/faq/' %}active{% endif %}">
                         <a href="/guide">City Guide</a>
                       </li>
-                    {% endif %}
+                    {% endif %} -->
                     <li class="{% if page.url == '/etc/' %}active{% endif %}">
                       <a href="/etc">Etc</a>
                     </li>
-                    {% if site.context == "chi" %}
-                        <li class="notification-link">
-                          <a href="#" class="ga-email-nav" data-toggle="modal" data-target="#subscribe-modal">
-                            <i class="fa fa-exclamation-circle notification-link--icon"></i>
-                            Updates
-                          </a>
-                        </li>
-                    {% endif %}
+                      <li class="notification-link">
+                        <a href="#" class="ga-email-nav" data-toggle="modal" data-target="#subscribe-modal">
+                          <i class="fa fa-exclamation-circle notification-link--icon"></i>
+                          Updates
+                        </a>
+                      </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

@@ -176,7 +176,7 @@ a:focus {
     text-align: center;
     color: #fff;
     text-shadow: black 2px 2px 10px;
-    background: url(../img/header.jpg) no-repeat bottom center scroll;
+  background: url(../img/RingByDoor.jpg) no-repeat bottom center scroll;
     background-color: #000000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -455,15 +455,15 @@ dd {
 
 .billboard-two {
   background-position: left center;
-  background-image: url(../img/story-two.jpg);
+  background-image: url(../img/WalkOnBeach.jpg);
 }
 
 .billboard-three {
-  background-image: url(../img/story-three.jpg);
+  background-image: url(../img/KissOnDock.jpg);
 }
 
 .billboard-four {
-  background-image: url(../img/story-four.jpg);
+  background-image: url(../img/WineryLift.jpg);
 }
 
 .billboard-wall {
