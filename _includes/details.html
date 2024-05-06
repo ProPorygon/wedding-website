@@ -1,0 +1,104 @@
+<section class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-offset-2 col-lg-8">
+      <h2>Getting Here</h2>
+      <p>
+        You can fly directly into Columbus.
+      </p>
+    </div>
+    <div class="col-lg-offset-2 col-lg-8 col-sm-6 text-center">
+      <h3>
+       <a href="https://flycolumbus.com/"> John Glenn Columbus International Airport  </a>
+        <br>
+        <small>
+          CMH
+        </small>
+      </h3>
+
+    </div>
+  </div>
+</section>
+
+<section class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-offset-2 col-lg-8">
+      <h2>Where to Stay</h2>
+      <p>
+        We have a room block for anyone traveling from out of town at the AC Hotel in Dublin, OH
+      </p>
+      <p>
+        <strong>
+          Please note - rooms are only available through our room block for the following nights:
+          <br>
+          <br>
+          <br>
+          Saturday, May 28
+          <br>
+          Sunday, May 29
+        </strong>
+      </p>
+      <p>
+        The reservation links below will only allow you to book rooms for the above nights
+      </p>
+      <div class="row">
+        {% for hotel in site.hotels.chi %}
+          <div class="col-sm-6 ">
+            {% include hotel_thumbnail.html hotel=hotel %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-offset-2 col-lg-8">
+      <h2 id="getting-around">Things to Do</h2>
+      <p>
+        Here are some activities in the Columbus area if you're visiting
+      </p>
+
+      <div class="row">
+          <div class="col-lg-6 text-left">
+
+          <h3>Short North Arts District and the North Market</h3>
+
+          <p>
+            Plenty of shopping and food along Columbus' North High Street
+          </p>
+        </div>
+
+        <div class="col-lg-6 text-left">
+
+          <h3>German Village</h3>
+
+          <p>
+            Historic houses and restaurants along brick-paved streets
+          </p>
+
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-lg-6 text-left">
+
+          <h3>Olentangy and Scioto Trails</h3>
+
+          <p>
+            Walk or bike along the rivers on these multipurpose trails
+          </p>
+        </div>
+
+        <div class="col-lg-6 text-left">
+
+          <h3>German Village</h3>
+
+          <p>
+            Historic houses and restaurants along brick-paved streets
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
