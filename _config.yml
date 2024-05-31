@@ -26,158 +26,28 @@ locations:
     google_maps_url: https://www.google.com/maps/place/Retreat+21/@40.1740693,-83.2668789,17z/data=!3m1!4b1!4m9!3m8!1s0x8838c18c6ab60355:0x68818a29a533b7c5!5m2!4m1!1i2!8m2!3d40.1740652!4d-83.264304!16s%2Fg%2F11rglt9vtq?entry=ttu
 
 hotels:
-- name: AC Hotel by Marriott Columbus Dublin
-  phone: +1-614-798-8652
-  reserve_url: https://example.com
-  rate: $X/night
-  description: Located 15 minutes from the venue and in the walkable Bridge Park neighborhood
-  <<: *ac_hotel_location
+  - name: AC Hotel by Marriott Columbus Dublin
+    phone: +1-614-798-8652
+    reserve_url: https://example.com
+    rate: $X/night
+    description: Located 15 minutes from the venue and in the walkable Bridge Park neighborhood
+    <<: *ac_hotel_location
 
 events:
-- name: Ceremony
-  date: Sunday, September 22, 2024
-  time: Arrive 4:00PM, Ceremony begins at 4:30pm
-  attire: Festive Attire
-  description: Join us in celebrating our marriage out among the trees.
-  transportation: Parking is available at Retreat21. Alternatively, we can provide an Uber code for transit between the hotel and venue.
-  <<: *retreat_location
-- name: Cocktail Hour
-  date: Sunday, September 22, 2024
-  time: 5:00pm
-  attire: Festive Attire
-  description: A cocktail hour will follow the ceremony as guests return to the main hall.
-  transportation: Parking is available at Retreat21. Alternatively, we can provide an Uber code for transit between the hotel and venue.
-  <<: *retreat_location
-- name: Reception
-  date: Sunday, September 22, 2024
-  time: 6:00pm
-  attire: Festive Attire
-  description: Dinner, dancing, and fun will follow into the evening.
-  transportation: Parking is available at Retreat21. Alternatively, we can provide an Uber code for transit between the hotel and venue.
-  <<: *retreat_location
+  - name: Ceremony
+    date: Sunday, September 22, 2024
+    time: Arrive 4:00PM, Ceremony begins at 4:30pm
+    attire: Festive Attire
+    description: Join us in celebrating our marriage out among the trees.
+    <<: *retreat_location
+  - name: Cocktail Hour
+    date: Sunday, September 22, 2024
+    time: 5:00pm
+    description: A cocktail hour will follow the ceremony as guests return to the main hall.
+  - name: Reception
+    date: Sunday, September 22, 2024
+    time: 6:00pm
+    description: Dinner, dancing, and fun will follow into the evening.
+    transportation: Parking is available at Retreat21. Alternatively, we can provide an Uber code for transit between the hotel and venue.
 
-people:
-  families: []
-#     - pic: vashis.jpg
-#       name: The Vashis
-#       people: Pankaj, Glynis, Rohan and Cosmo
-#     - pic: bacligs.jpg
-#       name: The Bacligs
-#       people: Crispin, Bernadette, Jon and Samantha
-  kids: []
-#     - pic: nadiya.jpg
-#       name: Nadiya Kundu
-#       title: Flower Girl
-#     - pic: jaanvi.jpg
-#       name: Jaanvi Vashi
-#       title: Flower Girl
-#     - pic: levi.jpg
-#       name: Levi Lagrimas
-#       title: Ring Bearer
-  her_side: []
-#     - name: Samantha Baclig
-#       pic: samie.jpg
-#       role: Junior Bridesmaid
-#       description: Chris’ Sister
-#     - name: Ronak Vashi
-#       pic: ronak.jpg
-#       role: Bridesmaid
-#       description: Nikita’s Cousin
-#     - name: Trisha DaSilva
-#       pic: trisha.jpg
-#       role: Bridesmaid
-#       description: Nikita’s Cousin
-#     - name: Gabby Colaianni
-#       pic: gabbyc.jpg
-#       role: Bridesmaid
-#       description: Nikita’s High School Friend
-#     - name: Devyn Brown
-#       pic: devyn.jpg
-#       role: Bridesmaid
-#       description: Nikita’s College Roommate
-#     - name: Chelsea Barabas
-#       pic: chelsea.jpg
-#       role: Bridesmaid
-#       description: Nikita’s College Roommate
-#     - name: Tanya Aylward
-#       pic: tanya.jpg
-#       role: Bridesmaid
-#       description: Nikita’s College Friend
-#     - name: Sanjana Tandon
-#       pic: sanjana.jpg
-#       role: Bridesmaid
-#       description: Nikita’s College Friend
-#     - name: Leigha Winters
-#       pic: leigha.jpg
-#       role: Bridesmaid
-#       description: Nikita’s Post-College Roommate
-#     - name: Miriam Komisar
-#       pic: miriam.jpg
-#       role: Bridesmaid
-#       description: Nikita’s Medical School  Friend
-#     - name: Meagan Appleman
-#       pic: meagan.jpg
-#       role: Bridesmaid
-#       description: Nikita’s Medical School Friend
-#     - name: Gabby Aguilar
-#       pic: gabbya.jpg
-#       role: Bridesmaid
-#       description: Nikita’s Medical School Friend
-  his_side: []
-#     - name: Jonathan Baclig
-#       pic: jon.jpg
-#       role: Best Man
-#       description: Chris’ Brother
-#     - name: Rohan Vashi
-#       pic: rohan.jpg
-#       role: Groomsman
-#       description: Nikita’s Brother
-#     - name: Ryan Abad
-#       pic: ryan.jpg
-#       role: Groomsman
-#       description: Chris’ Cousin
-#     - name: Gabriel Mendoza
-#       pic: gabe.jpg
-#       role: Groomsman
-#       description: Chris’ High School Friend
-#     - name: Eric Ma
-#       pic: eric.jpg
-#       role: Groomsman
-#       description: Chris’ College Roommate
-#     - name: Rajan Patel
-#       pic: rajan.jpg
-#       role: Groomsman
-#       description: Chris’ College Roommate
-#     - name: Arpeet Shah
-#       pic: arpeet.jpg
-#       role: Groomsman
-#       description: Chris’ College Friend
-#     - name: Winston Lofton
-#       pic: winston.jpg
-#       role: Groomsman
-#       description: Chris’ College Friend
-#     - name: Scott Keyes
-#       pic: scott.jpg
-#       role: Groomsman
-#       description: Chris’ College Friend
-#     - name: Isaac Johnson
-#       pic: isaac.jpg
-#       role: Groomsman
-#       description: Chris’ Post-College Roommate
-#     - name: Dare Kolawale
-#       pic: dare.jpg
-#       role: Groomsman
-#       description: Chris’ Post-College  Roommate
 faq: []
-
-guide:
-  explore: []
-  food: []
-  drinks: []
-
-# google:
-#   key: AIzaSyB6rRW9hmltJZvoNLO7dewTmGqZn8LIRFU
-
-# calendar:
-#   ical: https://www.google.com/calendar/ical/baclig.com_fqi9g8u7mre0m4oaqj1p66608c%40group.calendar.google.com/public/basic.ics
-#   google_id: baclig.com_fqi9g8u7mre0m4oaqj1p66608c@group.calendar.google.com
