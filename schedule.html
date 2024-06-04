@@ -18,7 +18,7 @@ billboard_class: billboard-schedule
 
         <div class="row">
         {% if event.location_name %}
-          <address class="col-xs-8 text-left">
+          <address>
             <strong>{{ event.location_name }}</strong><br>
             <a href="{{ event.google_maps_url }}">
               {{ event.address1 }}<br>
@@ -26,13 +26,6 @@ billboard_class: billboard-schedule
             </a>
           </address>
         {% endif %}
-
-          {% if event.attire %}
-          <dl class="col-xs-4 text-right">
-            <dt>Attire</dt>
-            <dd>{{ event.attire }}</dd>
-          </dl>
-          {% endif %}
 
         </div>
 

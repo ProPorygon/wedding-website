@@ -19,11 +19,13 @@ locations:
     coordinates: 40.1011321,-83.1129279
     google_maps_url: https://www.google.com/maps/place/AC+Hotel+by+Marriott+Columbus+Dublin/@40.1011321,-83.1129279,17z/data=!3m1!4b1!4m9!3m8!1s0x883892cd0953a9bf:0xf45d155eab6fe5b3!5m2!4m1!1i2!8m2!3d40.101128!4d-83.110353!16s%2Fg%2F11dfth2rl5?entry=ttu
   retreat_21: &retreat_location
-    location_name: Retreat21
+    location_name: Retreat21 Grove
     address1: 11433 Industrial Pkwy
     address2: Marysville, OH 43040
     coordinates: 40.1740693,-83.2668789
     google_maps_url: https://www.google.com/maps/place/Retreat+21/@40.1740693,-83.2668789,17z/data=!3m1!4b1!4m9!3m8!1s0x8838c18c6ab60355:0x68818a29a533b7c5!5m2!4m1!1i2!8m2!3d40.1740652!4d-83.264304!16s%2Fg%2F11rglt9vtq?entry=ttu
+  retreat_21_hall: &hall_location
+    location_name: Retreat21 Hall
 
 hotels:
   - name: AC Hotel by Marriott Columbus Dublin
@@ -37,17 +39,34 @@ events:
   - name: Ceremony
     date: Sunday, September 22, 2024
     time: Arrive 4:00PM, Ceremony begins at 4:30pm
-    attire: Festive Attire
     description: Join us in celebrating our marriage out among the trees.
     <<: *retreat_location
   - name: Cocktail Hour
     date: Sunday, September 22, 2024
     time: 5:00pm
     description: A cocktail hour will follow the ceremony as guests return to the main hall.
+    <<: *hall_location
   - name: Reception
     date: Sunday, September 22, 2024
     time: 6:00pm
     description: Dinner, dancing, and fun will follow into the evening.
     transportation: Parking is available at Retreat21. Alternatively, we can provide an Uber code for transit between the hotel and venue.
+    <<: *hall_location
 
-faq: []
+faq:
+  - question: When should I RSVP by?
+    answer: Please RSVP by July 10
+  - question: Are pets allowed?
+    answer: While we love animals, unfortunately guests may not bring pets to the event.
+  - question: How far is the venue, Retreat21, from Columbus?
+    answer: Retreat21 is around 30 minutes from the city center, but closer accomodation is available in Dublin, which is 13 minutes away.
+  - question: Are there vegan or allergen friendly food options available?
+    answer: Please let us know your dietary restrictions in your RSVP, and we will accomodate.
+  - question: Am I allowed to take photos or videos?
+    answer: Please refrain from taking your own photos and videos during the ceremony. We will have a professional photographer on site to capture these special moments. During the reception, we encourage you to take and share your photos with us!
+  - question: Does the wedding have a theme?
+    answer: The wedding will have an autumn theme. Feel inspired to dress in your favorite fall colors!
+  - question: What will the weather be like?
+    answer: Expect highs in the 70s F and lows in the 50s F. Precipitation is sometimes possible. In the case of rain, the wedding will be moved indoors, but please prepare for a variety of weather conditions.
+  - question: What is the dress code?
+    answer: "The dress code is <a href=https://www.brides.com/cocktail-attire-wedding-4844364>cocktail attire</a>."
