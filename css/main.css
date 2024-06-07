@@ -36,6 +36,14 @@ p {
     line-height: 1.5;
 }
 
+.transport-info {
+  font-size: 18px;
+}
+
+.event-address {
+  margin: 0 15px;
+}
+
 strong {
   font-size: 18px;
 }
@@ -229,7 +237,7 @@ a:focus {
     }
 
     .intro-text {
-        font-size: 25px;
+        font-size: 30px;
     }
 }
 

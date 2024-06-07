@@ -18,7 +18,7 @@ billboard_class: billboard-schedule
 
         <div class="row">
         {% if event.location_name %}
-          <address>
+          <address class="event-address">
             <strong>{{ event.location_name }}</strong><br>
             <a href="{{ event.google_maps_url }}">
               {{ event.address1 }}<br>
@@ -32,11 +32,7 @@ billboard_class: billboard-schedule
         <p>{{ event.description }}</p>
 
         {% if event.transportation %}
-          <p><em>{{ event.transportation }}</em></p>
-        {% endif %}
-
-        {% if event.shuttle %}
-          <p><em>{{ event.shuttle }}</em></p>
+          <p class="transport-info"><em>{{ event.transportation }}</em></p>
         {% endif %}
 
       </div>

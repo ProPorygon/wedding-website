@@ -19,13 +19,13 @@ locations:
     coordinates: 40.1011321,-83.1129279
     google_maps_url: https://www.google.com/maps/place/AC+Hotel+by+Marriott+Columbus+Dublin/@40.1011321,-83.1129279,17z/data=!3m1!4b1!4m9!3m8!1s0x883892cd0953a9bf:0xf45d155eab6fe5b3!5m2!4m1!1i2!8m2!3d40.101128!4d-83.110353!16s%2Fg%2F11dfth2rl5?entry=ttu
   retreat_21: &retreat_location
-    location_name: Retreat21 Grove
+    location_name: Retreat21 - Forest Wedding
     address1: 11433 Industrial Pkwy
     address2: Marysville, OH 43040
     coordinates: 40.1740693,-83.2668789
     google_maps_url: https://www.google.com/maps/place/Retreat+21/@40.1740693,-83.2668789,17z/data=!3m1!4b1!4m9!3m8!1s0x8838c18c6ab60355:0x68818a29a533b7c5!5m2!4m1!1i2!8m2!3d40.1740652!4d-83.264304!16s%2Fg%2F11rglt9vtq?entry=ttu
   retreat_21_hall: &hall_location
-    location_name: Retreat21 Hall
+    location_name: Retreat21 - The Venue
 
 hotels:
   - name: AC Hotel by Marriott Columbus Dublin
@@ -56,6 +56,8 @@ events:
 faq:
   - question: When should I RSVP by?
     answer: Please RSVP by July 10
+  - question: Will the wedding be indoors or outdoors?
+    answer: The ceremony will take place outdoors in Retreat21's Forest Ceremony area, while the dinner and reception will take place within The Venue at Retreat 21.
   - question: Are pets allowed?
     answer: While we love animals, unfortunately guests may not bring pets to the event.
   - question: How far is the venue, Retreat21, from Columbus?
