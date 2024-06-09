@@ -44,6 +44,10 @@ p {
   margin: 0 15px;
 }
 
+.event-date {
+  text-wrap: wrap;
+}
+
 strong {
   font-size: 18px;
 }
@@ -200,7 +204,6 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-    background-position: center -10em;
 }
 
 @media(min-width:992px) {
@@ -320,10 +323,6 @@ a:focus {
     padding-bottom: 50px;
     padding-left: 30px;
     padding-right: 30px;
-}
-
-.content-section h2 small {
-  white-space: nowrap;
 }
 
 .download-section {
@@ -452,12 +451,6 @@ dd {
     height: 175px;
 }
 
-@media(max-width:992px) {
-  .billboard-header {
-    height: 800px;
-  }
-}
-
 .billboard-text {
   margin-top: 0;
   margin-bottom: 0;
@@ -540,6 +533,21 @@ dd {
 .billboard-venue::before, .billboard-venue::after {
   background-position: top;
   background-image: url(../img/OnSwing.jpg);
+}
+
+@media(max-width:992px) {
+  .billboard-header {
+    height: 800px;
+  }
+  .intro {
+    background-position: -25em center;
+  }
+  .billboard-two {
+    background-position: -40em center;
+  }
+  .billboard-rsvp::after {
+    background-position: -33em top;;
+  }
 }
 
 .floating-info {

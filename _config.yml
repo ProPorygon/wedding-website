@@ -38,7 +38,7 @@ hotels:
 events:
   - name: Ceremony
     date: Sunday, September 22, 2024
-    time: Arrive 4:00PM, Ceremony begins at 4:30pm
+    time: Arrive 4:00PM, <br /> Ceremony begins at 4:30pm
     description: Join us in celebrating our marriage out among the trees.
     <<: *retreat_location
   - name: Cocktail Hour
@@ -61,9 +61,9 @@ faq:
   - question: Are pets allowed?
     answer: While we love animals, unfortunately guests may not bring pets to the event.
   - question: How far is the venue, Retreat21, from Columbus?
-    answer: Retreat21 is around 30 minutes from the city center, but closer accomodation is available in Dublin, which is 13 minutes away.
+    answer: Retreat21 is around 30 minutes from the city center, but closer accommodation is available in Dublin, which is 13 minutes away.
   - question: Are there vegan or allergen friendly food options available?
-    answer: Please let us know your dietary restrictions in your RSVP, and we will accomodate.
+    answer: Please let us know your dietary restrictions in your RSVP, and we will accommodate.
   - question: Am I allowed to take photos or videos?
     answer: Please refrain from taking your own photos and videos during the ceremony. We will have a professional photographer on site to capture these special moments. During the reception, we encourage you to take and share your photos with us!
   - question: Does the wedding have a theme?
